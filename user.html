@@ -1,0 +1,56 @@
+<html>
+<head>
+   <title>user page</title>
+    <link rel="stylesheet"     href="userstyle.css" media="all"/>
+   <script type="text/javascript">
+    function togglemenu()
+     {
+     document.getElementById('sidebar').classList.toggle('active');
+     }
+</script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="sidebar" onclick="togglemenu()">
+       <div class="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+           <ul>
+           
+             <li><a  class="btn btn-primary dropdown"  href="user.html"  >Home</a></li>
+              
+             <li>
+                   <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      MiniProjectList
+    </a>
+    <div class="dropdown-menu">
+      <h1 class="dropdown-header">2020-2021</h1>
+      <a class="dropdown-item" href="sphoorthy.php">CSE</a>
+      <h5 class="dropdown-header">2021-2022</h5>
+      <a class="dropdown-item" href="sphoorthy.php">CSE</a>
+    </div>
+               </li>
+              <ul>
+             <li>
+                   <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      MajorProjectList
+    </a>
+    <div class="dropdown-menu">
+      <h1 class="dropdown-header">2020-2021</h1>
+      <a class="dropdown-item" href="sphoorthy.php">CSE</a>
+       <a class="dropdown-item" href="sphoorthy.php">ECE</a>
+      <h5 class="dropdown-header">2021-2022</h5>
+      <a class="dropdown-item" href="sphoorthy.php">CSE</a>
+        <a class="dropdown-item" href="sphoorthy.php">ECE</a>
+    </div>
+            </li>
+              </ul>
+           </ul>
+    </div>
+</body>
+</html>
